@@ -77,11 +77,13 @@ public class PrescienceRX {
 					startTime = System.currentTimeMillis();
 				
 						waitUntilPageAppears();	
+					
+					stopTime = System.currentTimeMillis();
 					  
-						driver.navigate().back();
+					driver.navigate().back();
 				
 				
-				    stopTime = System.currentTimeMillis();
+				    
 				  
 			      timeTaken = stopTime - startTime;
 			      System.out.println("Time taken for Customer " + i +": "+ timeTaken + " milliseconds");
