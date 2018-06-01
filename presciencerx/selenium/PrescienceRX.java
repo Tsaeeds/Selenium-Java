@@ -19,7 +19,7 @@ public class PrescienceRX {
 	public void invokeBrowser() {
 		
 		try {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tayyib\\Downloads\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tahir\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().deleteAllCookies();
 			driver.manage().window().maximize();
