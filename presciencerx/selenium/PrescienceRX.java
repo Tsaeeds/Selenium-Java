@@ -36,7 +36,7 @@ public class PrescienceRX {
 	
 	public void login() {
 		
-		driver.findElement(By.id("UserName")).sendKeys("*email*");
+		driver.findElement(By.id("UserName")).sendKeys("*email or username*");
 		driver.findElement(By.id("Password")).sendKeys("*Password*");
 		driver.findElement(By.xpath("//*[@id=\"frmLogin\"]/div[5]/input")).click();
 		
